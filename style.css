@@ -21,7 +21,7 @@ nav{
 }
 
 nav img{
-    width: 150px;
+    width: 160px;
 }
 
 .nav-links{
@@ -40,8 +40,6 @@ nav img{
     color: #fff;
     text-decoration: none;
     font-size: 13px;
-
-
 }
 
 .nav-links ul li::after{
@@ -51,12 +49,12 @@ nav img{
     background: #f44336;
     display: block;
     margin: auto;
-    transition: 0.5s;
+    transition: 0.3s;
 
 }
 
 .nav-links ul li:hover::after{
-    width: 100px;
+    width: 40px;
 }
 
 .text-box{
@@ -70,7 +68,7 @@ nav img{
 }
 
 .text-box h1{
-    font-size: 62px;
+    font-size: 65px;
 }
 
 .text-box p{
@@ -180,6 +178,7 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    
 }
 
 .course-col:hover{
@@ -211,7 +210,9 @@ h3{
 
 .campus-col img{
     width: 100%;
+    
     display: block;
+    
 }
 
 .layer{
@@ -220,7 +221,9 @@ h3{
     position: absolute;
     top: 0;
     left: 0; 
-    transition: 0.5s;  
+    transition: 0.5s;
+
+   
 }
 
 .layer:hover{
@@ -244,13 +247,44 @@ h3{
 }
 
 /*----- facilities -----*/
-.facilities{
-    width: 80%;
-    margin: auto;
-    text-align: center;
 
+
+
+.col1 img{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    border-radius: 10px;
+    margin-left: 5%;
+    align-items: center;
+
+}   
+
+.col2 img{
+    width: 82%;
+    height: 50%;
+    margin: auto;
+    border-radius: 10px;
 }
 
+.col3 img{
+    width: 82%;
+    height: 50%;
+    margin: auto;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+
+.facilities{
+    width: 100%;
+
+    margin: auto;
+    text-align: center;
+   
+
+}
+/*
 .facilites-col{
     flex-basis: 31%;
     border-radius: 10px;
@@ -261,6 +295,8 @@ h3{
 .facilities-col img{
     width: 100%;
     border-radius: 10px;
+   
+    
 }
 
 .facilites-col p{
@@ -271,7 +307,7 @@ h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
-}
+}*/
 
 /*----- testimonials -----*/
 .testimonials{
@@ -282,20 +318,21 @@ h3{
 }
 
 .testimonial-col{
-    flex-basis: 44%;
+    flex-basis: 40%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     text-align: left;
     background: #fff3f3;
-    padding: 25px;
+    padding: 30px;
     cursor: pointer;
     display: flex;   
 }
 
 .testimonial-col img{
-    height: 40px;
+    height: 70px;
+    width: 70px;
     margin-left: 5px;
-    margin-right: 30px;
+    margin-right: 20px;
     border-radius: 50%;
 }
 
@@ -304,7 +341,7 @@ h3{
 }
 
 .testimonial-col h3{
-    margin-top: 15PX;
+    margin-top: 15px;
     text-align: left;    
 }
 
