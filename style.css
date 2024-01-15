@@ -7,7 +7,7 @@
 .header{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(abstract1.webp);
+    background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/abstract1.webp);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -360,7 +360,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: url('abstract1.webp');
+    background-image: url('images/abstract1.webp');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
